@@ -13,7 +13,7 @@ RUN apt-get -y autoremove
 
 COPY . .
 
-EXPOSE 80  #if you want to deploy this repo on back4app
+EXPOSE 80  # if you want to deploy this repo on back4app
 
 CMD ["bash", "start.sh"]
 
